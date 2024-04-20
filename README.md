@@ -1,4 +1,4 @@
-# eup-ui
+# EUP Menu for FiveM
 A new EUP menu for FiveM!
 
 ## Dependencies
