@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 			local content = LoadResourceFile(GetCurrentResourceName(), "presets/"..item)
 			
 			if string.find(item, ".json") then
-				print("JSON File detected - will support these eventually")
+				print("JSON files are currently unsupported by EUP UI. Please use a .ini format or wait for the code to be updated.")
 			elseif string.find(item, ".ini") then
 				ConvertIni(content)
 				print("Loaded file " .. item)
