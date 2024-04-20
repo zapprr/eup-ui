@@ -10,10 +10,10 @@ outfits_male = {}
 outfits_female = {}
 
 Citizen.CreateThread(function()
-	TriggerServerEvent('eup-ui:retrieve')
+	TriggerServerEvent('eup-ui:request')
 end)
 
 RegisterNetEvent('eup-ui:retrieve')
 AddEventHandler('eup-ui:retrieve', function(outfits)
-
+		
 end)
